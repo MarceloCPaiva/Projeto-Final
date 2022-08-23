@@ -1,0 +1,33 @@
+form {
+  height: 76%;
+}
+.content {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+input {
+  height: 40px;
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  width: 80px;
+}
+
+textarea {
+  padding: 10px;
+}

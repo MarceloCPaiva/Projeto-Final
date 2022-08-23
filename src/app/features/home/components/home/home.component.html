@@ -1,0 +1,48 @@
+<app-header></app-header>
+
+<section class="banner">
+  <div class="conteiner column">
+    <div class="banner_headline">
+      <h1>{{ title | titlecase }}</h1>
+      <h2>{{ subTitle | titlecase }}</h2>
+    </div>
+    <div class="banner_options">
+      <div class="banner_1">
+        <button (click)="saibaMais()" class="banner_title">Aulas</button>
+        <div class="banner_desc">
+          A dança não é sinônimo de diversão é também um fator favorável ao
+          bem–estar físico e emocional das crianças.<br />
+          Além de melhorar a coordenação motora, a dança também ajuda a criança
+          ser mais disciplinada e mais esforçada.
+        </div>
+      </div>
+      <div class="banner_2">
+        <button (click)="maisServicos()" class="banner_title">
+          Orientação
+        </button>
+        <div class="banner_desc">
+          O Ballet Clássico consiste em unir a técnica, a música e a atuação nos
+          movimentos. São habilidades que as crianças vão adquirindo pouco a
+          pouco através de exercícios e posturas.
+        </div>
+      </div>
+      <div class="banner_3">
+        <button (click)="maisContato()" class="banner_title">Horários</button>
+        <div class="banner_desc_1">
+          <div class="banner_desc_text_1">Segunda - Sexta</div>
+          <div class="banner_desc_hour_1">13:00h - 18:00h</div>
+        </div>
+        <div class="banner_desc_1">
+          <div class="banner_desc_text_2">Segunda</div>
+          <div class="banner_desc_hour_2">9:30h - 10:40h</div>
+        </div>
+        <div class="banner_desc_1">
+          <div class="banner_desc_text_3">Quarta e Sexta</div>
+          <div class="banner_desc_hour_3">10:00h - 10:40h</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<app-footer></app-footer>
